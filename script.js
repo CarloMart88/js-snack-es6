@@ -61,8 +61,7 @@ console.log(lightWeight);
 // Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
 // Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
-// Creare un array di oggetti di squadre di calcio.
-// Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+
 
 // Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
 
@@ -74,7 +73,8 @@ const NumeriRandom = () => {
 console.log(NumeriRandom())
 
 
-
+// Creare un array di oggetti di squadre di calcio.
+// Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 
 const footballTeams = [
   {
@@ -110,25 +110,24 @@ const footballTeams = [
   
 ]
 
-for(key in footballTeams){
-  console.log(footballTeams)
+for(i=0 ;i<footballTeams.length; i++){
+  const footballTeam = footballTeams[i]
+  console.log(footballTeam)
 }
 
-// for(i++ ; i<footballTeams.length ; i++){
+// Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
-// console.log(footballTeams)
-// }
+const namesFouls = [];
 
+for(i=0 ;i<footballTeams.length; i++) {
+  const footballTeam = footballTeams[i];
 
+  namesFouls.push({
+    nome:footballTeam.nome,
+    "falli subiti": footballTeam["falli subiti"]
 
+  }) 
 
+  console.log(namesFouls[i])
+}
 
-
-
-
-
-
-
-
-
-// Buon lavoro!
