@@ -31,11 +31,14 @@ const bikes = [
   },
 ];
 
+// defnisco una variabile affinche corrisponda al primo valore dell'array
 let lightWeight = bikes[0];
 
+// ciclo l'array con il for 
 for (i = 0 ; i<bikes.length ; i++){
+  // variabile i 
   let bike = bikes[i];
-
+// ciclo l'array con il for 
   if(bike.weight < lightWeight.weight) {
     lightWeight = bike
   }
