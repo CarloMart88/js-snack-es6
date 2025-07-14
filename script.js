@@ -11,27 +11,38 @@
 const bikes = [ 
  { 
   name: "Bianchi",
-  weight: "9 kg"  
+  weight: 9  
   },
   { 
   name: "Trek",
-  weight: "6 kg"  
+  weight: 6  
   },
   { 
   name: "Specialized",
-  weight: "8 kg"  
+  weight: 8  
   },
   { 
   name: "Cannondale",
-  weight: "10 kg"  
+  weight: 10  
   },
   { 
   name: "Scott",
-  weight: "11 kg"  
+  weight: 11  
   },
 ];
 
+let lightWeight = bikes[0];
 
+for (i = 0 ; i<bikes.length ; i++){
+  let bike = bikes[i];
+
+  if(bike.weight < lightWeight.weight) {
+    lightWeight = bike
+  }
+
+}
+
+console.log(lightWeight);
 
 
 
