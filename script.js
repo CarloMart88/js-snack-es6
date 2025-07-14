@@ -7,6 +7,39 @@
 // Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
 // Stampare a schermo la bici con peso minore.
 
+// creo l'array con chiavi name e weight e valori relativi 
+const bikes = [ 
+ { 
+  name: "Bianchi",
+  weight: "9 kg"  
+  },
+  { 
+  name: "Trek",
+  weight: "6 kg"  
+  },
+  { 
+  name: "Specialized",
+  weight: "8 kg"  
+  },
+  { 
+  name: "Cannondale",
+  weight: "10 kg"  
+  },
+  { 
+  name: "Scott",
+  weight: "11 kg"  
+  },
+];
+
+
+
+
+
+
+
+
+
+
 // Snack2**
 // Creare un array di oggetti di squadre di calcio.
 // Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
