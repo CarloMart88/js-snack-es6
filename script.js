@@ -74,39 +74,51 @@ const NumeriRandom = () => {
 console.log(NumeriRandom())
 
 
+
+
 const footballTeams = [
   {
     nome: "Rubentus",
-    "punti-fatti":[] ,
-    "punti-fatti":[] ,
+    "punti-fatti":[NumeriRandom()] ,
+    "falli subiti":[NumeriRandom()] ,
 
   },
   {
     nome: "Inda",
-    "punti-fatti":[] ,
-    "punti-fatti":[] ,
+    "punti-fatti":[NumeriRandom()] ,
+    "falli subiti":[NumeriRandom()] ,
 
   },
   {
     nome: "Diavoletti",
-    "punti-fatti":[] ,
-    "punti-fatti":[] ,
+    "punti-fatti":[NumeriRandom()] ,
+    "falli subiti":[NumeriRandom()] ,
 
   },
   {
     nome: "Yammeya",
-    "punti-fatti":[] ,
-    "punti-fatti":[] ,
+    "punti-fatti":[NumeriRandom()] ,
+    "falli subiti":[NumeriRandom()] ,
 
   },
   {
     nome: "Amaggica",
-    "punti-fatti":[] ,
-    "punti-fatti":[] ,
+    "punti-fatti":[NumeriRandom()] ,
+    "falli subiti":[NumeriRandom()] ,
 
   }
   
 ]
+
+for(key in footballTeams){
+  console.log(footballTeams)
+}
+
+// for(i++ ; i<footballTeams.length ; i++){
+
+// console.log(footballTeams)
+// }
+
 
 
 
