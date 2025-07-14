@@ -64,6 +64,16 @@ console.log(lightWeight);
 // Creare un array di oggetti di squadre di calcio.
 // Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
 
+// Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
+
+const NumeriRandom = () => {
+  return Math.floor(Math.random() * 10 );
+  
+}
+
+console.log(NumeriRandom())
+
+
 const footballTeams = [
   {
     nome: "Rubentus",
